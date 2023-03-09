@@ -1,0 +1,38 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  width: 85%;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+}
+.nav-link {
+  block-size: 2.35rem;
+  margin-block-end: 0.38rem;
+}
+
+.nav-link:hover {
+  background-color: #f9f7fb;
+}
+
+.main {
+  position: relative;
+  top: 4rem;
+  left: 15%;
+  width: 85%;
+}
+
+.active {
+  background: linear-gradient(
+    72.47deg,
+    rgb(115, 103, 240) 22.16%,
+    rgba(115, 103, 240, 0.7) 76.47%
+  ) !important;
+}
+.app {
+  background-color: #f9f7fb;
+}
